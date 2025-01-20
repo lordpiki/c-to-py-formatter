@@ -33,12 +33,6 @@ def format_file(path):
     with open(path, 'w') as f:
         f.write(''.join(fixed_lines))
             
-
-# get arguments from cmd line
-import sys
-def get_args():
-    return sys.argv[1:]
-
 def main():
 
     file_to_format = input("Enter the file path: ")

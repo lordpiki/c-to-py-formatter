@@ -42,7 +42,7 @@ int main()                                        {
         printf("x is less than or equal to 5\n")  ;
                                                   }
     return 0                                      ;
-                                                   }
+                                                  }
 ```
 
 ---
